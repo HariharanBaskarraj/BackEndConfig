@@ -1,0 +1,19 @@
+server:
+  port: 8082
+  
+
+presentation:
+  destination:
+    template: C:/Users/HariharanB/git/BackendTask/presentation-service-api/outputs/
+  source:
+    template: C:/Users/HariharanB/git/BackendTask/presentation-service-api/src/main/resources/templates/
+spring:
+  datasource:
+    password: root
+    url: jdbc:mysql://localhost:3306/backenddb
+    username: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
