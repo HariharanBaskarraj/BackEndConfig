@@ -13,4 +13,4 @@ spring:
        - id: presentationService
          uri: lb://PRESENTATION-SERVICE
          predicates:
-          - Path=/ppt/**
+          - Path=/presentation/**
