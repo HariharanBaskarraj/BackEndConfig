@@ -4,9 +4,9 @@ server:
 
 presentation:
   destination:
-    template: C:/Users/HariharanB/git/BackendTask/presentation-service-api/outputs/
+    template: C:/Users/HariharanB/Acheron Training/BackendPresentationTask/presentation-service-api/outputs/
   source:
-    template: C:/Users/HariharanB/git/BackendTask/presentation-service-api/src/main/resources/templates/
+    template: C:/Users/HariharanB/Acheron Training/BackendPresentationTask/presentation-service-api/src/main/resources/templates/
 spring:
   datasource:
     password: root
