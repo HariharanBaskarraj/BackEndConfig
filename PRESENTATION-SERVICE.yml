@@ -1,7 +1,6 @@
 server:
   port: 8082
   
-
 presentation:
   destination:
     template: C:/Users/HariharanB/Acheron Training/BackendPresentationTask/presentation-service-api/outputs/
